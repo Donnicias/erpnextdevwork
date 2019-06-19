@@ -474,3 +474,459 @@ Queued events for site site1.local
 [DEBUG] 2019-06-19 10:53:43,163 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
+[DEBUG] 2019-06-19 10:54:43,377 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:55:43,522 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:56:43,954 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:57:44,137 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:58:44,316 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:59:44,746 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:00:45,020 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:01:45,183 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:02:45,353 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:03:45,574 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:04:45,762 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:05:45,934 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:06:46,093 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:07:46,234 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:08:46,404 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:09:46,580 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:10:46,724 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:11:46,905 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:12:47,063 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:13:47,226 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:14:47,378 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:15:47,547 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:16:47,724 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:17:47,890 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:18:48,080 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:19:48,260 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:20:48,436 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:21:48,615 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:22:48,769 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:23:48,960 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:24:49,158 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:25:49,321 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:26:49,492 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:27:49,643 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:28:49,831 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:29:50,032 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:30:50,176 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:31:50,316 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:32:50,475 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:33:50,615 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:34:50,761 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:35:50,908 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:36:51,070 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:37:51,203 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:38:51,348 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:39:51,509 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:40:51,662 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:41:51,807 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:42:51,968 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:43:52,108 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:44:52,263 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:45:52,478 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:46:52,628 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:47:52,767 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:48:52,939 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:49:53,096 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:50:53,234 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:51:53,367 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:52:53,536 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:53:53,682 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:54:53,845 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:55:54,011 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:56:54,169 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:57:54,317 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:58:54,462 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 11:59:54,603 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:00:54,866 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:01:55,009 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:02:55,148 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:03:55,287 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:04:55,455 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:05:55,600 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:06:55,743 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:07:55,884 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:08:56,049 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:09:56,186 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:10:56,319 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:11:56,466 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:12:56,627 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:13:56,771 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:14:56,913 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:15:57,064 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:16:57,220 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:17:57,377 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:18:57,512 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:19:57,659 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:20:57,838 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:21:57,968 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:22:58,113 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:23:58,267 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:24:58,432 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:25:58,570 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:26:58,750 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:27:58,940 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:28:59,122 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:29:59,305 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:30:59,475 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:31:59,618 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:32:59,800 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:33:59,946 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:35:00,096 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:36:00,271 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:37:00,425 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:38:00,576 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:39:00,725 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:40:00,890 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:41:01,042 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:42:01,171 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:43:01,305 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:44:01,468 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:45:01,621 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:46:01,774 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:47:01,916 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:48:02,081 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:49:02,214 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:50:02,369 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:51:02,504 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:52:02,676 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:53:02,818 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:54:02,957 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:55:03,086 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:56:03,270 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:57:03,410 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:58:03,611 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 12:59:03,751 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:00:03,957 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:01:04,115 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:02:04,261 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:03:04,396 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:04:04,569 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:05:04,717 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:06:04,853 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:07:05,005 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:08:05,176 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:09:05,318 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:10:05,456 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:11:05,637 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:12:05,807 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:13:05,946 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:14:06,079 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:15:06,213 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:16:06,383 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:17:06,523 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:18:06,654 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:19:06,794 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:20:06,976 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:21:07,127 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:22:07,261 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:23:07,397 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:24:07,573 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:25:07,724 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 13:26:07,980 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
