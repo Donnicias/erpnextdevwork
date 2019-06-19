@@ -1,0 +1,476 @@
+[ERROR] 2019-06-15 17:05:37,555 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 17:05:38,064 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 17:05:37.556588-127.0.0.1-762
+[ERROR] 2019-06-15 17:06:21,655 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 17:06:21,662 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 17:06:21.655533-127.0.0.1-326
+[ERROR] 2019-06-15 17:07:59,246 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 17:07:59,388 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 17:07:59.378756-127.0.0.1-42b
+[ERROR] 2019-06-15 17:19:59,324 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 17:19:59,439 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 17:19:59.350354-127.0.0.1-8fd
+[ERROR] 2019-06-15 17:21:14,892 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 17:21:14,900 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 17:21:14.892592-127.0.0.1-319
+[ERROR] 2019-06-15 17:21:28,203 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 17:21:28,209 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 17:21:28.203588-127.0.0.1-e7b
+[ERROR] 2019-06-15 18:41:48,552 | /opt/bench/erpnext/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.sign_up",
+ "email": "mayakadonnicias@gmail.com",
+ "full_name": "Mayaka Donnicias",
+ "redirect_to": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/bench/erpnext/apps/frappe/frappe/app.py", line 57, in application
+    response = frappe.handler.handle()
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/bench/erpnext/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 807, in sign_up
+    user.insert()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1055, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 1038, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/opt/bench/erpnext/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 98, in on_update
+    self.send_password_notification(self.__new_password)
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 206, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 276, in send_welcome_mail_to_user
+    site_url=get_url(),
+  File "/opt/bench/erpnext/apps/frappe/frappe/core/doctype/user/user.py", line 302, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/bench/erpnext/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/bench/erpnext/apps/frappe/frappe/email/queue.py", line 70, in send
+    sender = email_account.default_sender
+AttributeError: 'NoneType' object has no attribute 'default_sender'
+[ERROR] 2019-06-15 18:41:48,691 | /opt/bench/erpnext/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-15 18:41:48.611122-127.0.0.1-3cc
+[DEBUG] 2019-06-15 19:29:52,230 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:30:52,421 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:31:52,775 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:32:53,094 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:33:53,283 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:34:53,584 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:35:53,734 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:36:53,949 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:37:54,108 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:38:54,256 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:39:54,398 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:40:54,547 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:41:54,703 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:42:54,851 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:43:54,988 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:44:55,137 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:45:55,278 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:46:55,410 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:47:55,554 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:48:55,725 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:49:55,898 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:50:56,037 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:51:56,180 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:52:56,350 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:53:56,496 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:54:56,638 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:55:56,784 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:56:56,947 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:57:57,095 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:58:57,271 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 19:59:57,443 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:00:57,632 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:01:57,768 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:02:57,921 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:03:58,071 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:04:58,235 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:05:58,393 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:06:58,560 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:07:58,701 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:08:58,875 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:09:59,019 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-15 20:10:59,200 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+                                                                                                                                                 [DEBUG] 2019-06-19 10:47:41,403 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:48:41,728 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:49:41,914 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:50:42,084 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:51:42,224 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:52:42,428 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2019-06-19 10:53:43,163 | /opt/bench/erpnext/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
