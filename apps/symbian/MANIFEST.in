@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include symbian *.css
+recursive-include symbian *.csv
+recursive-include symbian *.html
+recursive-include symbian *.ico
+recursive-include symbian *.js
+recursive-include symbian *.json
+recursive-include symbian *.md
+recursive-include symbian *.png
+recursive-include symbian *.py
+recursive-include symbian *.svg
+recursive-include symbian *.txt
+recursive-exclude symbian *.pyc

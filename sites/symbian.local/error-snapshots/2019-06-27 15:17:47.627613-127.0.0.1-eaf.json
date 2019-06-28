@@ -1,0 +1,69 @@
+{
+ "etype": "IndexError",
+ "evalue": "IndexError('list index out of range',)",
+ "exception": {
+  "args": "('list index out of range',)",
+  "message": "'list index out of range'"
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://127.0.0.1:8000/api/method/symbian.api.hello' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/opt/bench/erpnext/apps/frappe/frappe/api.pyc'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/opt/bench/erpnext/apps/frappe/frappe/__init__.pyc'>",
+    "response": "None"
+   },
+   "file": "/opt/bench/erpnext/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "58": "",
+    "59": "\t\telif frappe.request.path.startswith(\"/api/\"):",
+    "60": "\t\t\tresponse = frappe.api.handle()",
+    "61": "",
+    "62": "\t\telif frappe.request.path.startswith('/backups'):"
+   },
+   "lnum": 60
+  },
+  {
+   "call": "()",
+   "dump": {
+    "global validate_auth_via_api_keys": "<function validate_auth_via_api_keys>"
+   },
+   "file": "/opt/bench/erpnext/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "38": "",
+    "39": "\tvalidate_oauth()",
+    "40": "\tvalidate_auth_via_api_keys()",
+    "41": "",
+    "42": "\tparts = frappe.request.path[1:].split(\"/\",3)"
+   },
+   "lnum": 40
+  },
+  {
+   "call": "()",
+   "dump": {
+    "e": "IndexError('list index out of range',)"
+   },
+   "file": "/opt/bench/erpnext/apps/frappe/frappe/api.py",
+   "func": "validate_auth_via_api_keys",
+   "lines": {
+    "170": "\t\t\tvalidate_api_key_secret(token[0], token[1])",
+    "171": "\texcept Exception as e:",
+    "172": "\t\traise e",
+    "173": "",
+    "174": "def validate_api_key_secret(api_key, api_secret):"
+   },
+   "lnum": 172
+  }
+ ],
+ "locals": {
+  "authorization_header": "[u'token', u'93566199737a691']",
+  "e": "IndexError('list index out of range',)",
+  "token": "[u'93566199737a691']"
+ },
+ "pyver": "Python 2.7.15+: /opt/bench/erpnext/env/bin/python (prefix: /opt/bench/erpnext/env)",
+ "timestamp": "2019-06-27 15:17:47.627721",
+ "traceback": "Traceback (most recent call last):\n  File \"/opt/bench/erpnext/apps/frappe/frappe/app.py\", line 60, in application\n    response = frappe.api.handle()\n  File \"/opt/bench/erpnext/apps/frappe/frappe/api.py\", line 40, in handle\n    validate_auth_via_api_keys()\n  File \"/opt/bench/erpnext/apps/frappe/frappe/api.py\", line 172, in validate_auth_via_api_keys\n    raise e\nIndexError: list index out of range\n"
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="437f95f0-5c55-4726-8260-a6c17067587e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/pids/redis_cache.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pids/redis_queue.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pids/redis_socketio.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python2.7/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/bench.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bench.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/frappe.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/frappe.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/frappe.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/logs/frappe.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/apps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sites/apps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/site1.local/site_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/sites/site1.local/site_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/site1.local/site_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/sites/site1.local/site_data.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/erpnext.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="47" />
+    <option name="width" value="1305" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="symbian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="site1.local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="site1.local" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpnext" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="site1.local" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="437f95f0-5c55-4726-8260-a6c17067587e" name="Default Changelist" comment="" />
+      <created>1561625592701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561625592701</updated>
+      <workItem from="1561625594349" duration="1419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1419000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="47" width="1305" height="701" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sites/common_site_config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/symbian/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

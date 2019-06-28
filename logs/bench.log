@@ -3,3 +3,6 @@
 2019-06-15 12:40:46,778 INFO installing erpnext
 2019-06-15 12:40:46,778 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
 2019-06-15 12:42:52,277 INFO bench build --app erpnext
+2019-06-27 12:09:21,888 INFO creating new app symbian
+2019-06-27 12:10:35,555 INFO installing symbian
+2019-06-27 12:10:35,556 INFO ./env/bin/pip install -q  -e ./apps/symbian 

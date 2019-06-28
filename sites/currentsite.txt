@@ -1,1 +1,1 @@
-site1.local
+symbian.local
